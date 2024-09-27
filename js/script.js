@@ -1,4 +1,4 @@
-//declaração de variáveis
+// declaração de variáveis
 const aiPlayer = document.getElementById("ai-player");
 const twoPlayers = document.getElementById("2-players");
 const refresh = document.querySelector("#refresh");
