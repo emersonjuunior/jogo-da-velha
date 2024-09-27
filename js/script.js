@@ -24,7 +24,7 @@ let xScore = 0;
 let oScore = 0;
 let secondPlayer;
 
-//seleção do modo de jogo
+// seleção do modo de jogo
 twoPlayers.addEventListener("click", (e) => {
   secondPlayer = 0;
   twoPlayers.style.display = "none";
