@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="/js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jogo da Velha</h1>
+      <h3>Selecione o Modo de Jogo</h3>
+      <div id="buttons-container">
+        <button id="2-players">2 jogadores</button>
+        <button id="refresh">Mudar o Modo de Jogo</button>
+        <button id="ai-player">Contra IA</button>
+      </div>
+    </header>
+    <section class="hide" id="area">
+      <div class="blocks" id="first">
+        <div class="box" id="area1"></div>
+        <div class="box" id="area2"></div>
+        <div class="box" id="area3"></div>
+      </div>
+      <div class="blocks" id="second">
+        <div class="box" id="area4"></div>
+        <div class="box" id="area5"></div>
+        <div class="box" id="area6"></div>
+      </div>
+      <div class="blocks" id="third">
+        <div class="box" id="area7"></div>
+        <div class="box" id="area8"></div>
+        <div class="box" id="area9"></div>
+      </div>
+    </section>
+    <footer class="hide">
+      <h4>Placar</h4>
+      <div id="scoreboard">
+      <span id="x-scoreboard">
+        <span id="span-x">X : 0 </span>
+      </span>
+      <span id="o-scoreboard">
+        <span id="span-o">
+          <i class="bi bi-circle"></i> : 0
+        </span>
+      </span>
+      </div>
+    </footer>
+
+    <div class="hide" id="x">X</div>
+    <div class="hide" id="o"><i class="bi bi-circle"></i></div>
+
+    <div class="hide" id="message">
+      <p>Jogador 1 venceu! <i class="bi bi-trophy"></i></i></p>
+      </div>
+  </body>
+</html>
