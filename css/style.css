@@ -5,11 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Edu VIC WA NT Beginner", cursive;
-  background-color: #fffffa;
 }
 
-.hide {
-  display: nne;
+body {
+  background-color: #fffffa;
 }
 
 .disabled {
@@ -25,9 +24,9 @@
 }
 
 .box {
-  width: 9%;
+  width: 150px;
   height: 150px;
-  border: 3px solid #333138;
+  border: 5px solid #333138;
   text-align: center;
   cursor: pointer;
 }
@@ -82,29 +81,30 @@ h3 {
 button {
   background-color: #333138;
   color: #fffffa;
-  width: 8%;
+  width: 170px;
   border-radius: 15px;
-  height: 30px;
+  height: 35px;
   font-size: 18px;
   border: none;
 }
 
 button:hover {
-  width: 9%;
-  height: 35px;
+  width: 200px;
+  height: 40px;
   transition: 0.3s;
   transform: 1.1;
   cursor: pointer;
 }
 
 #refresh {
-  width: 10%;
+  width: 200px;
+  height: 40px;
   display: none;
 }
 
 #refresh:hover {
-  height: 40px;
-  width: 11%;
+  height: 45px;
+  width: 240px;
 }
 
 #first {
@@ -181,12 +181,20 @@ h4 {
   width: 40%;
   height: 10%;
   border-radius: 100px;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 #message i {
-  background-color: #eeba0b;
+  background-color: transparent;
 }
+
+/* RESPONSIVIDADE DESKTOP MENORES */
+@media screen and (min-width: 1280px) and (max-width: 1280px) 
+           and (min-height: 800px) and (max-height: 800px) {
+            body {
+              background-color: black;
+            }
+          }
 
 /* RESPONSIVIDADE TABLET*/
 @media screen and (max-width: 900px) and (min-width: 600px) {
