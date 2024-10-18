@@ -12,6 +12,10 @@
   display: nne;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 /* LAYOUT DAS LINHAS DO JOGO*/
 .blocks {
   display: flex;
