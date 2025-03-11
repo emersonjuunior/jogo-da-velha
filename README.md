@@ -24,6 +24,6 @@
 Para rodar o arquivo localmente na sua máquina:  
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/jogo-da-velha.git
+git clone https://github.com/emersonjuunior/jogo-da-velha.git
 ```
 Depois, basta abrir o arquivo index.html no navegador 😁.
