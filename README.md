@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido com HTML, CSS e JavaScript, implementando a clássica dinâmica do jogo da velha. A aplicação permite que dois jogadores participem de uma partida, com a opção de jogar contra a IA.
 
-### 🔗 Acesse o site clicando  **[aqui](https://seu-usuario.github.io/jogo-da-velha/)**!
+### 🔗 Acesse o site clicando  **[aqui](https://emersonjuunior.github.io/jogo-da-velha/)**!
 
 
 ## 🚀 Tecnologias  
